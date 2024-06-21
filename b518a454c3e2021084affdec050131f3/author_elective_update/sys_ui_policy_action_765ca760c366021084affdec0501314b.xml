@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_decimal_24</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-30 17:34:33</sys_created_on>
+        <sys_id>765ca760c366021084affdec0501314b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_decimal_24</sys_name>
+        <sys_package display_value="my time tracker" source="x_1401647_my_time">b518a454c3e2021084affdec050131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="my time tracker">b518a454c3e2021084affdec050131f3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_765ca760c366021084affdec0501314b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-30 17:38:25</sys_updated_on>
+        <table>x_1401647_my_time_time_sheet</table>
+        <ui_policy display_value="If we select leave then fill Efforts should be blocked">32182fe8c326021084affdec050131d7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=765ca760c366021084affdec0501314b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="my time tracker">b518a454c3e2021084affdec050131f3</application>
+        <file_path/>
+        <instance_id>bdab629f1b7d82587d9d2f8dee4bcbca</instance_id>
+        <instance_name>dev262651</instance_name>
+        <name>sys_ui_policy_action_765ca760c366021084affdec0501314b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_decimal_24</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-30 17:34:33</sys_created_on><sys_id>765ca760c366021084affdec0501314b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_decimal_24</sys_name><sys_package display_value="my time tracker" source="x_1401647_my_time">b518a454c3e2021084affdec050131f3</sys_package><sys_policy/><sys_scope display_value="my time tracker">b518a454c3e2021084affdec050131f3</sys_scope><sys_update_name>sys_ui_policy_action_765ca760c366021084affdec0501314b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-30 17:38:25</sys_updated_on><table>x_1401647_my_time_time_sheet</table><ui_policy display_value="If we select leave then fill Efforts should be blocked">32182fe8c326021084affdec050131d7</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=765ca760c366021084affdec0501314b"/></record_update>]]></payload>
+        <payload_hash>1904091257</payload_hash>
+        <record_name>u_decimal_24</record_name>
+        <reverted_from/>
+        <source>3118a454c3e2021084affdec050131f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-30 17:38:25</sys_created_on>
+        <sys_id>ef4da760c366021084affdec050131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fca94df420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-30 17:38:25</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>a74da7602a660210026623de4b9a83aa</update_guid>
+        <update_guid_history>a74da7602a660210026623de4b9a83aa:1904091257,076ca760a9660210cdb7c2e6189b5a8d:1481178951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-30 17:39:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>01e4033661814b5080751034c72a4024</sys_id>
+        <sys_metadata>765ca760c366021084affdec0501314b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_decimal_24</sys_name>
+        <sys_package display_value="my time tracker" source="x_1401647_my_time">b518a454c3e2021084affdec050131f3</sys_package>
+        <sys_parent display_value="If we select  monday as leave then fill Efforts should be blocked">32182fe8c326021084affdec050131d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="my time tracker">b518a454c3e2021084affdec050131f3</sys_scope>
+        <sys_scope_delete display_value="">3a596e4d9bd943b898ce9930f49d6240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_765ca760c366021084affdec0501314b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_765ca760c366021084affdec0501314b">ef4da760c366021084affdec050131aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-30 17:39:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

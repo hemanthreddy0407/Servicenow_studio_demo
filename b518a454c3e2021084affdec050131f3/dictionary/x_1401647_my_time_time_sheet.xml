@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9141e7a0c326021084affdec050131bc" label="Time Sheet" max_length="40" name="x_1401647_my_time_time_sheet" type="collection">
+        <element label="Time Sheet" max_length="80" name="u_field_name_1" read_only="true" type="field_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Monday" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Leave" sequence="2" value="leave"/>
+                <element inactive_on_update="false" label="home" sequence="1" value="home"/>
+                <element inactive_on_update="false" label="Wipro Office" sequence="0" value="wipro office"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Friday" max_length="40" name="u_choice_15" type="string">
+            <choice>
+                <element inactive_on_update="false" label="wipro office" sequence="0" value="wipro office"/>
+                <element inactive_on_update="false" label="Home" sequence="1" value="home"/>
+                <element inactive_on_update="false" label="Leave" sequence="2" value="leave"/>
+            </choice>
+        </element>
+        <element attributes="base_start=true" label="Time Sheet" max_length="80" name="u_table_name_8" read_only="true" type="table_name"/>
+        <element label="total work hours" max_length="40" name="u_glide_time_4" type="glide_time"/>
+        <element default="0.0" label="Fill Effort" max_length="15" name="u_decimal_25" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="New String (Full UTF-8)" max_length="255" name="u_string_full_utf8_10" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="week off" label="Saturday" max_length="40" name="u_choice_16" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Leave" sequence="2" value="leave"/>
+                <element inactive_on_update="false" label="wipro office" sequence="0" value="wipro office"/>
+                <element inactive_on_update="false" label="Home" sequence="1" value="home"/>
+                <element inactive_on_update="false" label="Week off" sequence="3" value="week off"/>
+            </choice>
+        </element>
+        <element label="Fill Efforts" max_length="40" name="u_insert_timestamp_23" type="insert_timestamp"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Wednesday" max_length="40" name="u_choice_13" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Leave" sequence="2" value="leave"/>
+                <element inactive_on_update="false" label="wipro office" sequence="0" value="wipro office"/>
+                <element inactive_on_update="false" label="Home" sequence="1" value="home"/>
+            </choice>
+        </element>
+        <element label="Fill Efforts" max_length="40" name="u_insert_timestamp_18" type="insert_timestamp"/>
+        <element label="Fill Efforts" max_length="40" name="u_insert_timestamp_20" type="insert_timestamp"/>
+        <element label="Fill Efforts" max_length="40" name="u_insert_timestamp_21" type="insert_timestamp"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tuesday" max_length="40" name="u_choice_12" type="string">
+            <choice>
+                <element inactive_on_update="false" label="wipro office" sequence="0" value="wipro office"/>
+                <element inactive_on_update="false" label="home" sequence="1" value="home"/>
+                <element inactive_on_update="false" label="Leave" sequence="2" value="leave"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="week off" label="Sunday" max_length="40" name="u_choice_17" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Leave" sequence="2" value="leave"/>
+                <element inactive_on_update="false" label="wipro office" sequence="0" value="wipro office"/>
+                <element inactive_on_update="false" label="Home" sequence="1" value="home"/>
+                <element inactive_on_update="false" label="Week off" sequence="3" value="week off"/>
+            </choice>
+        </element>
+        <element label="Fill Efforts" max_length="40" name="u_insert_timestamp_22" type="insert_timestamp"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Thursday" max_length="40" name="u_choice_14" type="string">
+            <choice>
+                <element inactive_on_update="false" label="wipro office" sequence="0" value="wipro office"/>
+                <element inactive_on_update="false" label="Home" sequence="1" value="home"/>
+                <element inactive_on_update="false" label="Leave" sequence="2" value="leave"/>
+            </choice>
+        </element>
+        <element label="Fill Efforts" max_length="40" name="u_insert_timestamp_19" type="insert_timestamp"/>
+        <element label="Monday" mandatory="true" max_length="15" name="u_decimal_2" type="decimal"/>
+        <element default="0.0" label="Fill Effort" max_length="15" name="u_decimal_26" type="decimal"/>
+        <element default="0.0" label="Fill Effort" max_length="15" name="u_decimal_24" type="decimal"/>
+        <element label="Fill Effort" max_length="15" name="u_decimal_28" type="decimal"/>
+        <element label="Fill Effort" max_length="15" name="u_decimal_27" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Time Sheet" max_length="40" name="u_string_9" read_only="true" type="string"/>
+        <element label="Fill Efforts" max_length="40" name="u_insert_timestamp_11" type="insert_timestamp"/>
+    </element>
+</database>

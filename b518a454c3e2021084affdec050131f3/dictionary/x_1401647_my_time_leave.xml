@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1ab8641cc326021084affdec050131da" label="leave" max_length="40" name="x_1401647_my_time_leave" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Leave request" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Annual" sequence="0" value="annual"/>
+                <element inactive_on_update="false" label="sick" sequence="1" value="sick"/>
+                <element inactive_on_update="false" label="Leave without pay" sequence="2" value="leave without pay"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" dependent="u_reference_4" dependent_on_field="u_reference_4" label="Manager" max_length="32" name="u_reference_4" reference="sys_user" reference_qual="titleLIKEmanager^EQ" reference_qual_condition="titleLIKEmanager^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="encode_utf8=false" dependent="u_reference_8" dependent_on_field="u_reference_8" label="HR" max_length="32" name="u_reference_8" reference="sys_user" reference_qual="titleSTARTSWITHHR^EQ" reference_qual_condition="titleSTARTSWITHHR^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <index name="index">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_4"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_8"/>
+        </index>
+    </element>
+</database>
